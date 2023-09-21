@@ -9,6 +9,20 @@
 </head>
 
 <body>
+    <div class="weather-container">
+        <input type="text" id="city" placeholder="Введіть назву міста">
+        <button onclick="getWeather()">ОТРИМАТИ ПОГОДУ</button>
+    
+        <div id="temperature" class="weather-data"></div>
+        <div id="pressure" class="weather-data"></div>
+        <div id="description" class="weather-data"></div>
+        <div id="humidity" class="weather-data"></div>
+        <div id="wind" class="weather-data"></div>
+    
+        <div id="weatherIcon" class="weather-icon">
+            <img src="" alt="Погодний значок" id="icon">
+        </div>
+    </div>
     <script src="/js/script.js"></script>
 </body>
 
